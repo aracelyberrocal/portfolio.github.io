@@ -1,0 +1,67 @@
+* {
+  border: 0px;
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: #ffffff;
+  font-family: Poppins;
+}
+/* CABECERA */
+header {
+  background-color: #ffffff;
+  height: 560px;
+  text-align: center;
+  vertical-align: center;
+  font-size: 15px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.logo {
+  width: 50%;
+}
+h1 {
+  font-family: Cormorant;
+  font-size: 150px;
+  font-weight: 100;
+}
+.botones {
+  height: 20%;
+  width: 20%;
+}
+button {
+  background: #29736b;
+  color: black;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* BARRA DE NAVEGACIÓN */
+nav {
+  height: 63px;
+  background-color: #2f3640;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  font-weight: 100;
+  text-align: right;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+li a {
+  color: white;
+
+  text-align: center;
+  text-decoration: none;
+}
+/* PRINCIPAL DERECHO */
+main {
+  height: 400px;
+}
