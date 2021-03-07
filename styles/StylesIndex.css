@@ -4,51 +4,106 @@
   padding: 0%;
   box-sizing: border-box;
 }
+
+.header {
+  height: 20%;
+}
+
 body {
-  background-image: linear-gradient(
-    180deg,
-    rgb(108, 108, 224),
-    rgb(52, 54, 211)
-  );
-  font-family: InterRegular;
+  background-color: white;
+  font-family: DmSerif;
   letter-spacing: 1px;
 }
 p {
-  font-family: InterSemibold;
   font-size: 12px;
   letter-spacing: 2px;
+  color: #262666;
 }
 
-h1 {
+.name h1 {
+  font-size: 45px;
+  letter-spacing: 1px;
+  color: #262666;
+  padding: 20px;
   font-family: DmSerif;
-  letter-spacing: 3px;
-  color: rgb(255, 255, 255);
+}
+.name h1 {
+  transition: all 0.4s ease;
+}
+.name h1.fade {
+  color: #262666;
+}
+.proyectos h1,
+.about h1 {
+  font-family: DmSerif;
 }
 h2 {
-  font-family: InterRegular;
+  font-family: DmSerif;
   letter-spacing: 2px;
   color: rgb(194, 200, 243);
 }
+h3 {
+  color: #262666;
+}
 .navbar {
-  font-family: InterSemibold;
   letter-spacing: 2px;
   font-size: 14px;
   border-width: 2px;
   background-color: #5959e9;
   color: black;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .boton {
-  background-color: #5959e9;
   padding: 5px;
   color: white;
   border-radius: 5%;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .form {
   font-family: DmSerif;
   font-size: 13px;
   letter-spacing: 2px;
+  color: #9da9ce;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0);
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 4%;
+  padding: 4%;
+}
+
+.footer {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 30%;
+  background-color: #262666;
+  width: auto;
+}
+.footer p {
+  font-size: 12;
   color: white;
-  background-color: #1a191ad4;
-  margin: 4px;
+}
+
+.caja {
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0);
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.calcu {
+  width: 20%;
+}
+.intro {
+  font-size: 10px;
+}
+
+.texto {
+  background-color: #262666;
+  color: white;
+}
+
+.texto p {
+  color: white;
+}
+.redes img {
+  width: 3%;
 }

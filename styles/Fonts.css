@@ -1,21 +1,4 @@
 @font-face {
-  font-family: "Acumin";
-  src: url("../fonts/Acumin-RPro.otf");
-}
-@font-face {
-  font-family: "Poppins";
-  src: url("../fonts/Poppins/Poppins-Medium.ttf");
-}
-
-@font-face {
-  font-family: "Mightype";
-  src: url("../fonts/Mightype/Mightype.otf");
-}
-@font-face {
-  font-family: "Cormorant";
-  src: url("../fonts/Cormorant/CormorantGaramond-Light.ttf");
-}
-@font-face {
   font-family: "InterRegular";
   src: url("../fonts/Inter/Inter-Regular.ttf");
 }
