@@ -15,3 +15,16 @@
   font-family: "Cormorant";
   src: url("../fonts/Cormorant/CormorantGaramond-Light.ttf");
 }
+@font-face {
+  font-family: "InterRegular";
+  src: url("../fonts/Inter/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: "InterSemibold";
+  src: url("../fonts/Inter/Inter-SemiBold.ttf");
+}
+@font-face {
+  font-family: "DmSerif";
+  src: url("../fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf");
+}
